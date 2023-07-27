@@ -169,7 +169,7 @@ height: 750px;
   background-size: cover; 
 
 }  */
-@media (min-width:350px)and (max-width:374px){
+/* @media (min-width:350px)and (max-width:374px){
   .cuenta{
     display: flex;
     flex-wrap: wrap;
@@ -178,25 +178,35 @@ height: 750px;
     margin-top: 10%;
   }
 
-}
+} */
 
 
 
 
-@media (min-width:375px)and (max-width:399px){
+@media (min-width:350px)and (max-width:400px){
+
   section.inicio{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     height: 100vh;
+    background-image: url("../img/portadaCopia.jpg");
+    background-position: center;
+    background-size: cover;
+
   }
+  div >.simply-amount{
+    display: block;
+    text-align: center;
+    font-size: 4.5vh; /*era 3.5vh */
+    font-weight: 250px;
+  } 
+
+
   .cuandoydonde p{
     font-size: 1.3em;
   }
-
-  .inicio img.separador{
-     margin-bottom: -147%; 
-    /* margin-top: 12px; */
-    }  
+  
   .flecha-continuar{
     display: none;
   }  
@@ -221,8 +231,8 @@ height: 750px;
     justify-content:center;
     align-items: center;
     font-family: "Lilita One";
-    margin-top: 131px;
-    margin-bottom: -227px;
+  
+    margin-bottom: 20%;
     font-size: 1.1em;
     text-align: center;
     color: #ffdc3e;
@@ -250,8 +260,11 @@ height: 750px;
   }
   .cuenta{
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 209px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -65%;
+
   }
   .ComoLlegar{
     display: flex;
@@ -267,12 +280,15 @@ height: 750px;
   .cuandoydonde p {
     font-size: 1.3em;
   }
+  .nombregrande > img{
+    display: none;
+  }
 }
 
 
  
 
-@media (max-width:800px){
+@media (min-width:600px) and (max-width:800px){
   /* div > img.separador1{
     background-color: #fd3599;
   } */
