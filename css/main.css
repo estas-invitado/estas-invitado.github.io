@@ -44,7 +44,7 @@ main{
       justify-content: center;
       align-items: center;
     
-      background-image: url("../img/foto\ portada.jpg");
+      background-image: url("../img/foto\ portada1.JPG");
       background-position: center center;
       background-size: cover;
     }
@@ -95,11 +95,12 @@ main{
 }
 
 
-@media(max-width: 600px) {
+@media(min-width:400px )and (max-width: 600px) {
 
 .cuenta{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
@@ -121,7 +122,8 @@ main{
 }
 
 .inicio .separador{
-  margin-bottom: -655px;
+  margin-bottom: -649px;
+  object-fit: cover;
 }
 
 .asistencia{
@@ -185,7 +187,6 @@ main{
   color: rgb(255, 255, 255);
   text-shadow: 4px 2px 0px rgb(0, 26, 255);
 /* text-shadow: rgb(46, 46, 46) 2px 3px; */
-
 }
 .ComoLlegar img{
   display: flex;
@@ -1142,7 +1143,7 @@ section, .vacio{
 .cuenta{
   text-align: center;
 
-  margin-bottom: 112px;
+  margin-bottom: -225px;
 }
 .cuantofalta,h3{
   font-size: 2.5em;
