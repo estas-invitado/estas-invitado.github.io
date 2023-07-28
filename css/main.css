@@ -45,13 +45,42 @@ main{
       align-items: center;
     
       background-image: url("../img/foto\ portada1.JPG");
-      background-position: center center;
+      background-position: 50% -90%;
       background-size: cover;
     }
     section img{
       width: 50%;
      
     }
+    /*cuenta regresiva*/
+
+
+.simply-section{
+  background: #ffffff;
+  /* width: 70px;
+  height: 70px; */
+  margin: 0 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.simply-amount{
+  display: block;
+  text-align: center;
+  font-size: 7.5vh; /*era 3.5vh */
+  font-weight: 250px;
+} 
+.simply-word {
+  font-weight: 250px;
+  font-size: 4vh; /*Era 2vh*/
+}
+
+
+
+
+
     .galeria{
       margin: auto;
       width: 70%;
@@ -577,30 +606,6 @@ iframe{
   background-image: url(/img/map.png);
 
 }
-/*cuenta regresiva*/
-
-
-.simply-section{
-  background: #ffffff;
-  /* width: 70px;
-  height: 70px; */
-  margin: 0 10px;
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-.simply-amount{
-  display: block;
-  text-align: center;
-  font-size: 7.5vh; /*era 3.5vh */
-  font-weight: 250px;
-} 
-.simply-word {
-  font-weight: 250px;
-  font-size: 4vh; /*Era 2vh*/
-}
 
 .invitacion{
   display: flex;
@@ -707,9 +712,9 @@ button .btn-primary{
   --bs-btn-hover-bg:var(--theme-color);
 }
 .boton button{
-  --bs-btn-bg: #ff00a6;
+  --bs-btn-bg: var(--theme-color);
   --bs-btn-border-color:white;
-  --bs-btn-hover-bg: var(--theme-color);
+  --bs-btn-hover-bg: rgb(111, 0, 255);
   --bs-btn-hover-border-color:white;
 
 
@@ -1045,7 +1050,7 @@ button .btn-primary{
 } */
 
 
-@media (min-width:400px) and (max-width: 500px)
+@media (min-width:401px) and (max-width: 500px)
 {
   .inicio {
   width: 100%;

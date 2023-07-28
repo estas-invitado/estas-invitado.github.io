@@ -183,15 +183,15 @@ height: 750px;
 
 
 
-@media (min-width:350px)and (max-width:400px){
+@media (min-width:360px)and (max-width:390px){
 
   section.inicio{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     height: 100vh;
-    background-image: url("../img/portadaCopia.jpg");
-    background-position: center;
+    background-image: url("../img/portada_mobile.jpg");
+    background-position: 50% -53%;
     background-size: cover;
 
   }
@@ -201,6 +201,15 @@ height: 750px;
     font-size: 4.5vh; /*era 3.5vh */
     font-weight: 250px;
   } 
+  .simply-section{
+    background: #ffffff;
+    margin: 0 3px;
+    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  }
 
 
   .cuandoydonde p{
@@ -216,14 +225,13 @@ height: 750px;
   .boton{
     margin-top: 32px;
   }
-  .inicio .separador1{
-   margin-top: -4px;
-  }
+
   .contenedor{
     background-repeat: repeat-y;
   }
   div > img.separador1{
     background-color: #ff00a8;
+    margin-bottom: -29%;
   }
   .cuantofalta h3{
     text-align: center;
@@ -263,7 +271,7 @@ height: 750px;
     /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
-    margin-bottom: -65%;
+    margin-bottom: -104%;
 
   }
   .ComoLlegar{
@@ -283,6 +291,11 @@ height: 750px;
   .nombregrande > img{
     display: none;
   }
+  div > .separador{
+    margin-top: -13%;
+  }
+  
+
 }
 
 
