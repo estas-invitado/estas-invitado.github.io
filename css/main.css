@@ -76,17 +76,10 @@ main{
   font-weight: 250px;
   font-size: 4vh; /*Era 2vh*/
 }
-
-
-
-
-
     .galeria{
       margin: auto;
       width: 70%;
     }
-
-
     .nombre{
       display: none;
     }
@@ -96,14 +89,9 @@ main{
       margin-left: 40%;
       
     }
-
     section.vacio{
       padding-top: 40px;
     }
-
-
-
-
   .cuenta{
     width: 35%;
     display: flex;
@@ -116,8 +104,6 @@ main{
     /* margin-bottom: -800px;   */
   
   }
-
-
   .nombre{
     margin-top: 770px;
   } 
@@ -276,7 +262,8 @@ html {
     flex-wrap: wrap;
     height: 100vh;
     background-image: url("../img/portada_mobile.jpg");
-    background-position: 50% -39%;
+    /* background-position: center; */
+    margin-top: 20%;
     background-size: cover;
 
   }
@@ -315,7 +302,7 @@ html {
     /* background-repeat: repeat-y; */
     background-color: #fd3599; 
     background-image: url("/img/fondo1.jpg");
-    background-position: 89% 100%;
+    background-position: center;
   }
   div > img.separador1{
     background-color: #ff00a8;
@@ -380,6 +367,44 @@ html {
   div > .separador{
     margin-top: -13%;
   }
+}
+
+
+@media (min-width:600px) and (max-width:800px){
+  /* div > img.separador1{
+    background-color: #fd3599;
+  } */
+
+  section.inicio{
+    display: flex;
+    height: 100vh;
+  }
+  /* .inicio img{
+    margin-bottom: -140%;
+  } */
+
+  .cuantofalta h3{
+    margin-top: -96px;
+    margin-bottom: -227px;
+  }
+  .nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nombre >img{
+    margin-left: 20%;
+    margin-bottom:-37px;
+  }
+
+  .cuenta{
+    margin-top: 104px;
+  }
+  .nombregrande{
+    display: none;
+  }
+
+
 }
 
 
@@ -840,17 +865,6 @@ button .btn-primary{
 
 
 .playPauseBTN {
-	/* padding: 10px 25px;
-	font-size: 22px;
-	line-height: 40px;
-	min-width: 150px;
-	text-align: center;
-	cursor: pointer;
-	background: linear-gradient(to right bottom,#273c75,#079992);
-	color: #fff;
-	border-radius: 5px;
-	border:0px;
-	height: 60px; */
 
   float:left;
   right:0;
@@ -1025,7 +1039,7 @@ button .btn-primary{
 
 }
 
-
+/* 28-07*/
 @media (min-width:551px)and (max-width: 563px) /*para A21 s*/
 {
   .titulo_principal{
@@ -1168,22 +1182,48 @@ button .btn-primary{
 } */
 
 
-@media (min-width:401px) and (max-width: 500px)
+@media (min-width:391px) and (max-width: 450px)
 {
-  .inicio {
-  width: 100%;
-   
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    
-   background-image:url(/img/portadaCopia.jpg);
-    
-    background-repeat: no-repeat;
-    background-position: 50% 50%; 
-    background-size: cover;
-    margin-top: 70px; 
+
+section.inicio{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-image: url("../img/portada_mobile.jpg");
+  background-position: 50% 50%;
+  margin-top: 16%;
+  background-size: cover;
 }
+
+.nombregrande{
+  display: none;
+}
+.nombre{
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+}
+
+div >.simply-amount{
+  display: block;
+  text-align: center;
+  font-size: 4.5vh; /*era 3.5vh */
+  font-weight: 250px;
+} 
+.simply-section{
+  background: #ffffff;
+  margin: 0 3px;
+  border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+.separador1{
+  margin-bottom: -30%;
+}
+
 .cuantofalta h3{
   text-align: center;
   display: flex;
@@ -1197,6 +1237,9 @@ button .btn-primary{
   color: #ffdc3e;
   text-shadow: 5px 2px 2px rgb(0, 0, 0);
 
+}
+.separador{
+  margin-top: -16%;
 }
 
 /* .contenedor1{
@@ -1215,9 +1258,10 @@ section, .vacio{
   background-size:cover;
 }
 .cuenta{
+  display: flex;
   text-align: center;
 
-  margin-bottom: -225px;
+  margin-top:122px;
 }
 .cuantofalta,h3{
   font-size: 2.5em;
@@ -1233,6 +1277,7 @@ section, .vacio{
   flex-direction: column;
 
 }
+
 
 section .galeria {
 

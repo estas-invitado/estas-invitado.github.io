@@ -185,43 +185,7 @@ height: 750px;
 
 
  
-
-@media (min-width:600px) and (max-width:800px){
-  /* div > img.separador1{
-    background-color: #fd3599;
-  } */
-
-  section.inicio{
-    display: flex;
-    height: 100vh;
-  }
-  /* .inicio img{
-    margin-bottom: -140%;
-  } */
-
-  .cuantofalta h3{
-    margin-top: -96px;
-    margin-bottom: -227px;
-  }
-  .nombre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .nombre >img{
-    margin-left: 20%;
-    margin-bottom:-37px;
-  }
-
-  .cuenta{
-    margin-top: 104px;
-  }
-  .nombregrande{
-    display: none;
-  }
-
-
-} 
+ 
 /* 
 @media(max-width:360px)
 {
@@ -540,8 +504,8 @@ svg {
     margin-left: 25px;
   }    
 
-
 }
+
 
 /* .formulario{
   display: flex;
