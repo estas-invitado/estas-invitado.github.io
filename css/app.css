@@ -191,7 +191,7 @@ height: 750px;
     flex-wrap: wrap;
     height: 100vh;
     background-image: url("../img/portada_mobile.jpg");
-    background-position: 50% -53%;
+    background-position: 50% -39%;
     background-size: cover;
 
   }
@@ -239,8 +239,6 @@ height: 750px;
     justify-content:center;
     align-items: center;
     font-family: "Lilita One";
-  
-    margin-bottom: 20%;
     font-size: 1.1em;
     text-align: center;
     color: #ffdc3e;
@@ -271,7 +269,7 @@ height: 750px;
     /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
-    margin-bottom: -104%;
+    margin-bottom: -96%;
 
   }
   .ComoLlegar{
