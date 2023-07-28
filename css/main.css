@@ -337,15 +337,14 @@ html {
     align-items: center;
   }
   .nombre >img{
-    margin-top: -120px;
+    margin-top: -155px;
   }
   .cuenta{
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
-    margin-bottom: -96%;
-
+    margin-bottom: -42%;
   }
   .ComoLlegar{
     display: flex;
@@ -367,6 +366,112 @@ html {
   div > .separador{
     margin-top: -13%;
   }
+}
+@media (min-width:551px) and (max-width:565px){
+  section.inicio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-image: url("../img/portada_mobile.jpg");
+    /* background-position: center; */
+    margin-top: 13%;
+    background-size: cover;
+
+  }
+  div >.simply-amount{
+    display: block;
+    text-align: center;
+    font-size: 4.5vh; /*era 3.5vh */
+    font-weight: 250px;
+  } 
+  .simply-section{
+    background: #ffffff;
+    margin: 0 3px;
+    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  }
+
+
+  .cuandoydonde p{
+    font-size: 1.3em;
+  }
+  
+  .flecha-continuar{
+    display: none;
+  }  
+  .invitacion{
+    margin-top: 47px;
+  }
+  .boton{
+    margin-top: 32px;
+  }
+
+  .contenedor{
+    /* background-repeat: repeat-y; */
+    background-color: #fd3599; 
+    background-image: url("/img/fondo1.jpg");
+    background-position: center;
+  }
+  div > img.separador1{
+    background-color: #ff00a8;
+    margin-bottom: -29%;
+  }
+  .cuantofalta{
+    margin-top: -245px;
+  }
+  .cuantofalta h3{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: "Lilita One";
+    font-size: 1.1em;
+    text-align: center;
+    color: #ffdc3e;
+    text-shadow: 5px 2px 2px rgb(0, 0, 0);
+  /* text-shadow: rgb(46, 46, 46) 2px 3px; */  
+}
+  .nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nombre >img{
+    margin-top: -610px;
+  }
+  .cuenta{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -465px;
+  }
+  .ComoLlegar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .ComoLlegar img{
+    width: 60%;
+
+  }
+
+  .cuandoydonde p {
+    font-size: 1.3em;
+  }
+  .nombregrande > img{
+    display: none;
+  }
+  div > .separador{
+    margin-top: -72%;
+  }
+
+
 }
 
 
@@ -1038,15 +1143,13 @@ button .btn-primary{
   
 
 }
-
-/* 28-07*/
-@media (min-width:551px)and (max-width: 563px) /*para A21 s*/
+/* 
+ @media (min-width:551px)and (max-width: 563px) 
 {
   .titulo_principal{
     margin-top: -465px;
     font-family: 'Lilita One', cursive;
     font-size: 2.7em;
-    /* margin-top: 25px; */
     margin-bottom: 5px;
     color: var(--theme-color);
     text-shadow: 4px 2px 0px white;
@@ -1065,12 +1168,11 @@ button .btn-primary{
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: 4px 2px 0px rgb(0, 26, 255);
-  /* text-shadow: rgb(46, 46, 46) 2px 3px; */
-  
+
   }
 
   .titulo1,h1{
-    font-size: 1.5em; /*Era 1.5em;*/
+    font-size: 1.5em; 
     
   } 
   .titulo2 h2{
@@ -1096,20 +1198,17 @@ button .btn-primary{
     flex-wrap: nowrap;
     flex-direction: column;
   
-    /* margin-top: -1163px;  */
     margin-bottom: 348px; 
   }
 
 .separador1 {
-    /* margin-top: -29%; */
+    
     margin-bottom: -30%;
   }
   
-/*agregado 29-06*/
 .simply-section{
   background: #ffffff;
-  /* width: 70px;
-  height: 70px; */
+
   margin: 0 10px;
   border-radius: 5px;
   display: flex;
@@ -1120,19 +1219,15 @@ button .btn-primary{
 .simply-amount{
   display: block;
   text-align: center;
-  font-size: 3.5vh; /*era 3.5vh */
+  font-size: 3.5vh;
   font-weight: 250px;
 } 
 .simply-word {
   font-weight: 250px;
-  font-size: 2.5vh; /*Era 2vh*/
+  font-size: 2.5vh; 
 }
 
 .flecha-continuar{
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* width: 50px; */
   flex:-1;
   flex-direction: column;
   margin-left: 13px;
@@ -1141,45 +1236,8 @@ button .btn-primary{
 }
 
 
+}  */
 
-
-}
-/* 
-@media (min-width: 565px)
-{
-  
-.asistencia, h1{
-    font-size: 1.3em;
-  
-  }
-  .inicio { 
-    width: 100%;
-    height: 1190px; 
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: cover;
-    margin-top: 70px;
-}
-.cuantofalta{
-  text-align: center;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  font-family: "Lilita One";
-  margin: 0px;
-  font-size: 1.8em;
-  text-align: center;
-  color: #ba00ff;
-  text-shadow: 4px 2px 0px rgb(255, 255, 255);
-
-}
-
-
-} */
 
 
 @media (min-width:391px) and (max-width: 450px)
@@ -1191,7 +1249,7 @@ section.inicio{
   flex-wrap: wrap;
   height: 100vh;
   background-image: url("../img/portada_mobile.jpg");
-  background-position: 50% 50%;
+  /* background-position: 50% 50%; */
   margin-top: 16%;
   background-size: cover;
 }
@@ -1202,7 +1260,7 @@ section.inicio{
 .nombre{
   display: flex;
   justify-content: center;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 div >.simply-amount{
@@ -1231,7 +1289,7 @@ overflow: hidden;
   align-items: center;
   font-family: "Lilita One";
   margin-top: -109px;
-  margin-bottom: -227px;
+  margin-bottom: -132px;
   font-size: 1.1em;
   text-align: center;
   color: #ffdc3e;
@@ -1261,7 +1319,7 @@ section, .vacio{
   display: flex;
   text-align: center;
 
-  margin-top:122px;
+  margin-top:11%;
 }
 .cuantofalta,h3{
   font-size: 2.5em;
@@ -1296,5 +1354,66 @@ section .galeria {
     /* margin-top: -1163px;  */
     margin-bottom: 34px; 
   }
+
+}
+
+@media (min-width:450px) and (max-width: 550px){
+  section.inicio{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-image: url("../img/portada_mobile.jpg");
+    background-position: 50% 50%;
+    margin-top: 16%;
+    background-size: cover;
+  }
+  
+  .nombregrande{
+    display: none;
+  }
+  .nombre{
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+  }
+  
+  div >.simply-amount{
+    display: block;
+    text-align: center;
+    font-size: 4.5vh; /*era 3.5vh */
+    font-weight: 250px;
+  } 
+  .simply-section{
+    background: #ffffff;
+    margin: 0 3px;
+    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  }
+  .separador1{
+    margin-bottom: -30%;
+  }
+  
+  .cuantofalta h3{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: "Lilita One";
+    margin-top: -109px;
+    margin-bottom: -227px;
+    font-size: 1.1em;
+    text-align: center;
+    color: #ffdc3e;
+    text-shadow: 5px 2px 2px rgb(0, 0, 0);
+  
+  }
+  .separador{
+    margin-top: -16%;
+  }
+  
 
 }
