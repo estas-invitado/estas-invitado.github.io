@@ -306,6 +306,19 @@ html {
     background-color: #ff00a8;
     margin-bottom: -29%;
   }
+  .cuantofalta{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: "Lilita One";
+    margin-top: -31px;
+    font-size: 1.8em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 2px 0px rgb(0, 26, 255);
+  /* text-shadow: rgb(46, 46, 46) 2px 3px; */
+  }
   .cuantofalta h3{
     text-align: center;
     display: flex;
@@ -354,6 +367,9 @@ html {
   div > .separador{
     margin-top: -13%;
   }
+  .flecha-continuar{
+    display:flex;
+  }
 
 }
 
@@ -385,6 +401,11 @@ html {
   justify-content: center;
   overflow: hidden;
   }
+  .simply-word{
+    text-align: center;
+    font-size: 1.3em;
+  }
+
 
 
   .cuandoydonde p{
@@ -440,14 +461,22 @@ html {
     align-items: center;
   }
   .nombre >img{
-    margin-top: -155px;
+    margin-top: -227px;
+  }
+  .cuantofalta{
+    margin-top: -69px;
   }
   .cuenta{
+    width: 80%;
     display: flex;
     /* flex-wrap: wrap; */
+    text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: -95%;
+    margin-top: -4px;
+    margin-bottom: -274px;
+    /* margin-bottom: -800px;   */
+  
   }
   .ComoLlegar{
     display: flex;
@@ -468,6 +497,9 @@ html {
   }
   div > .separador{
     margin-top: -13%;
+  }
+  .flecha-continuar{
+    display: flex;
   }
 }
 @media (min-width:551px) and (max-width:565px){
@@ -497,14 +529,12 @@ html {
   justify-content: center;
   overflow: hidden;
   }
-
-
   .cuandoydonde p{
     font-size: 1.3em;
   }
   
   .flecha-continuar{
-    display: none;
+    display: flex;
   }  
   .invitacion{
     margin-top: 47px;
@@ -580,7 +610,7 @@ html {
 
 @media (min-width:566px) and (max-width:600px){
   .flecha-continuar{
-    display: block;
+    display: flex;
   }
   section.inicio{
     display: flex;
@@ -762,11 +792,16 @@ html {
     display: none;
   }
   .cuenta{
+    width: 80%;
     display: flex;
     /* flex-wrap: wrap; */
+    text-align: center;
     justify-content: center;
     align-items: center;
-    margin-bottom: -838px;
+    margin-top: -21px;
+    margin-bottom: 21px;
+    /* margin-bottom: -800px;   */
+  
   }
   .ComoLlegar{
     display: flex;
@@ -794,13 +829,14 @@ html {
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+@media (min-width: 768px) and (max-width: 1080px) and (orientation: landscape){
   .flecha-continuar{
     display: block;
   }
   section.inicio{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     height: 100vh;
     background-image: url("../img/portadaCopia.jpg");
@@ -836,6 +872,10 @@ html {
   .boton{
     margin-top: 32px;
   }
+  .nombregrande{
+    margin-top: -40%;
+    margin-left: 25%;
+  }
 
   .contenedor{
     /* background-repeat: repeat-y; */
@@ -848,7 +888,7 @@ html {
     margin-bottom: -29%;
   }
   .cuantofalta{
-    margin-top: -245px;
+    margin-top: -22px;
   }
   .cuantofalta h3{
     text-align: center;
@@ -1631,7 +1671,7 @@ section.inicio{
   display: none;
 }
 div.nombre > img{
-  margin-bottom: -58%;
+  margin-bottom: 4%;
   margin-left: 20%;
   margin-top: 82%;
 
@@ -1668,8 +1708,8 @@ overflow: hidden;
   justify-content:center;
   align-items: center;
   font-family: "Lilita One";
-  margin-top: -109px;
-  margin-bottom: -661px;
+  margin-top: -500px;
+  margin-bottom: -510px;
   font-size: 1.1em;
   text-align: center;
   color: #ffdc3e;
@@ -1699,7 +1739,7 @@ section, .vacio{
   display: flex;
   text-align: center;
 
-  margin-top:74%;
+  margin-top:11%;
 }
 .cuantofalta,h3{
   font-size: 2.5em;
