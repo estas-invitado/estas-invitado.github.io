@@ -93,9 +93,9 @@ main{
       padding-top: 40px;
     }
   .cuenta{
-    width: 35%;
+    width: 80%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -685,111 +685,6 @@ html {
 
 }
 
-@media (min-width:601px){
-  .flecha-continuar{
-    display: block;
-  }
-  section.inicio{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 100vh;
-    background-image: url("../img/portadaCopia.jpg");
-    background-position: center; 
-    margin-top: 11%;
-    background-size: cover;
-
-  }
-  div >.simply-amount{
-    display: block;
-    text-align: center;
-    font-size: 5vh; /*era 3.5vh */
-    font-weight: 250px;
-  } 
-  .simply-section{
-    background: #ffffff;
-    margin: 0 7px;
-    border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  }
-
-
-  .cuandoydonde p{
-    font-size: 1.3em;
-  }
-
-  .invitacion{
-    margin-top: 47px;
-  }
-  .boton{
-    margin-top: 32px;
-  }
-
-  .contenedor{
-    /* background-repeat: repeat-y; */
-    background-color: #fd3599; 
-    background-image: url("/img/fondo1.jpg");
-    background-position: center;
-  }
-  div > img.separador1{
-    background-color: #ff00a8;
-    margin-bottom: -29%;
-  }
-  .cuantofalta{
-    margin-top: -245px;
-  }
-  .cuantofalta h3{
-    text-align: center;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    font-family: "Lilita One";
-    font-size: 2.1em;
-    text-align: center;
-    color: #ffdc3e;
-    text-shadow: 5px 2px 2px rgb(0, 0, 0);
-  /* text-shadow: rgb(46, 46, 46) 2px 3px; */  
-}
-  .nombre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .nombre >img{
-    margin-top: -610px;
-  }
-  .cuenta{
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -679px;
-  }
-  .ComoLlegar{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-
-  .ComoLlegar img{
-    width: 60%;
-
-  }
-
-  .cuandoydonde p {
-    font-size: 1.3em;
-  }
-  .nombregrande > img{
-    display: none;
-  }
-  div > .separador{
-    margin-top: -11%;
-  }
-
-}
 @media (min-width: 768px) and (max-width: 1024px){
   .flecha-continuar{
     display: block;
@@ -1774,7 +1669,7 @@ overflow: hidden;
   align-items: center;
   font-family: "Lilita One";
   margin-top: -109px;
-  margin-bottom: -737px;
+  margin-bottom: -661px;
   font-size: 1.1em;
   text-align: center;
   color: #ffdc3e;
@@ -1804,7 +1699,7 @@ section, .vacio{
   display: flex;
   text-align: center;
 
-  margin-top:91%;
+  margin-top:74%;
 }
 .cuantofalta,h3{
   font-size: 2.5em;
@@ -1838,6 +1733,13 @@ section .galeria {
   
     /* margin-top: -1163px;  */
     margin-bottom: 34px; 
+  }
+
+  .contenedor{
+    /* background-repeat: repeat-y; */
+    background-color: #fd3599; 
+    background-image: url("/img/fondo1.jpg");
+    background-position: center;
   }
 
 }
