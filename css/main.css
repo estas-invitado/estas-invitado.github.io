@@ -43,9 +43,8 @@ main{
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-    
       background-image: url("../img/foto\ portada.JPG");
-      background-position: 50% -90%;
+      background-position: 50% -59%;
       background-size: cover;
     }
     section img{
@@ -715,6 +714,72 @@ html {
 
 }
 
+@media (min-width:640px) and (max-width:766px) and (orientation:landscape){
+  section.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-image: url("../img/portadaCopia.jpg");
+    background-position: center 5%; 
+    margin-top: 8%;
+    background-size: cover;
+
+  }
+  div >.simply-amount{
+    display: block;
+    text-align: center;
+    font-size: 4.5vh; /*era 3.5vh */
+    font-weight: 250px;
+  } 
+  .simply-section{
+    background: #ffffff;
+    margin: 0 7px;
+    border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  }
+
+
+  .cuandoydonde p{
+    font-size: 1.3em;
+  }
+
+  .invitacion{
+    margin-top: 47px;
+  }
+  .boton{
+    margin-top: 32px;
+  }
+  .nombregrande{
+    display: none;  
+  }
+  .nombre{
+    width: 45%;
+    margin-left: -54%;
+    margin-top: 1%;
+  }
+  .cuenta{
+    display: flex;
+  }
+  .separador{
+    margin-top: -10%;
+  }
+  section img{
+    width: 50%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .separador1{
+    margin-bottom: -29%;
+  }
+
+
+}
+
 @media (min-width: 768px) and (max-width: 1024px){
   .flecha-continuar{
     display: block;
@@ -788,18 +853,16 @@ html {
   /* text-shadow: rgb(46, 46, 46) 2px 3px; */  
 }
   
-  .nombre >img{
-    display: none;
-  }
+
   .cuenta{
-    width: 80%;
+    width: 90%;
     display: flex;
     /* flex-wrap: wrap; */
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: -21px;
-    margin-bottom: 21px;
+    margin-top: 34px;
+    margin-bottom: -606px;
     /* margin-bottom: -800px;   */
   
   }
@@ -819,11 +882,17 @@ html {
   }
   .nombregrande > img{
     display: block;
-    margin-top: -56%;
+    margin-top: -43%;
     margin-left: 14%;
   }
   div > .separador{
-    margin-top: -11%;
+    margin-top: -12%;
+    margin-bottom: -1%;
+
+  }
+  .nombre{
+    display: none;
+
   }
 
 }
@@ -840,7 +909,7 @@ html {
     flex-wrap: wrap;
     height: 100vh;
     background-image: url("../img/portadaCopia.jpg");
-    background-position: center center; 
+    background-position: center 5%; 
     margin-top: 8%;
     background-size: cover;
 
@@ -873,8 +942,10 @@ html {
     margin-top: 32px;
   }
   .nombregrande{
-    margin-top: -40%;
-    margin-left: 25%;
+  margin-top: -9%;
+  width: 50%;
+  margin-left: -54%;
+  margin-bottom: -3%;
   }
 
   .contenedor{
@@ -896,22 +967,28 @@ html {
     justify-content:center;
     align-items: center;
     font-family: "Lilita One";
-    font-size: 2.1em;
+    font-size: 1.3em;
     text-align: center;
     color: #ffdc3e;
     text-shadow: 5px 2px 2px rgb(0, 0, 0);
+    margin-bottom: 7px;
   /* text-shadow: rgb(46, 46, 46) 2px 3px; */  
 }
-  
-  .nombre >img{
+  .nombre{
     display: none;
   }
+  /* .nombre >img{
+    margin-top: -72%;
+    margin-bottom: -360px;
+    margin-left: -26%;
+    width:50%;
+  } */
   .cuenta{
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
-    margin-bottom: -579px;
+    margin-bottom: -192px;
   }
   .ComoLlegar{
     display: flex;
@@ -1673,7 +1750,8 @@ section.inicio{
 div.nombre > img{
   margin-bottom: 4%;
   margin-left: 20%;
-  margin-top: 82%;
+  margin-top: 11%;
+  margin-bottom: 46%;
 
 
 }
@@ -1708,8 +1786,8 @@ overflow: hidden;
   justify-content:center;
   align-items: center;
   font-family: "Lilita One";
-  margin-top: -500px;
-  margin-bottom: -510px;
+  margin-top: -485px;
+  margin-bottom: -135px;
   font-size: 1.1em;
   text-align: center;
   color: #ffdc3e;
@@ -1739,7 +1817,7 @@ section, .vacio{
   display: flex;
   text-align: center;
 
-  margin-top:11%;
+  margin-top:-36%;
 }
 .cuantofalta,h3{
   font-size: 2.5em;
